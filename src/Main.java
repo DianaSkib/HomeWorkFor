@@ -30,5 +30,12 @@ public class Main {
         for (int g = 1; g <= 512; g = g * 2) {
             System.out.println(g);
         }
+        ///  Task 8
+        int salary = 29000;
+        int capital = 0;
+        for (int h = 1; h < 12; h++) {
+            capital = capital + salary;
+            System.out.println("Месяц " + h + ", сумма накоплений равна " + capital + " рублей.");
+        }
     }
 }
