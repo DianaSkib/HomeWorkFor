@@ -26,5 +26,9 @@ public class Main {
         for (int f = 7; f <= 98; f = f + 7) {
             System.out.println(f);
         }
+        /// Task 7
+        for (int g = 1; g <= 512; g = g * 2) {
+            System.out.println(g);
+        }
     }
 }
