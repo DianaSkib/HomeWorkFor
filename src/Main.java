@@ -38,5 +38,12 @@ public class Main {
             capital = capital + salary;
             System.out.println("Месяц " + h + ", сумма накоплений равна " + capital + " рублей.");
         }
+        ///  Task 10
+        int original = 2;
+        int derivative = 0;
+        for (int e = 1; e <= 10; e++) {
+            derivative = original * e;
+            System.out.println(original + "*" + e + "=" + derivative);
+        }
     }
 }
