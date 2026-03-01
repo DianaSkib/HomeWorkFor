@@ -3,8 +3,12 @@
 public class Main {
     public static void main(String[] args) {
         /// Task 1
-        for (int a = 0; a <= 10; a++) {
+        for (int a = 1; a <= 10; a++) {
             System.out.println(a);
+        }
+        /// Task 2
+        for (int b = 10; b >= 1; b--) {
+            System.out.println(b);
         }
     }
 }
