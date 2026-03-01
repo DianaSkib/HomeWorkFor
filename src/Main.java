@@ -34,7 +34,7 @@ public class Main {
         int salary = 29000;
         int capital = 0;
         for (int h = 1; h < 12; h++) {
-            capital = (int) (capital + capital * 0.12);
+            capital = capital + capital/100;
             capital = capital + salary;
             System.out.println("Месяц " + h + ", сумма накоплений равна " + capital + " рублей.");
         }
